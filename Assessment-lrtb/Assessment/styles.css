@@ -1,0 +1,55 @@
+
+
+*{box-sizing: border-box;}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+#wrapper{  
+    display: inline-block;
+    text-align: center;     
+}
+.grid{
+    width: 25%;
+    height: 30px;
+    border: 1px solid #ccc; 
+    color: #000;
+}
+
+.grid.active{
+    background: blue;
+}       
+tr{
+    border: 1px solid #000; 
+}
+td{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+td.active{
+    background: blue;
+    
+}
+input[type=button]{
+    margin: 5px;
+    border-radius:50px;
+    padding: 15px;
+    width: 120px;
+    border: 0;
+    }
+button  {
+margin: 5px;
+border-radius:50px;
+padding: 15px;
+width: 100px;
+border: 0;
+}
+/* .action{
+    display: none;
+} */

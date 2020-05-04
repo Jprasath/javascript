@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+<head>
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="container">
+        <form name="tablegen">
+            <label>Table: <input type="text" name="rows" id="tableInput" value=""/></label><br />
+            <!--   <label>Cols: <input type="text" name="cols" id="cols"/></label><br/> -->
+            <input name="generate" type="button" value="Create Table!" onclick='createTable();'/>
+        </form>
+            
+        <div id="wrapper"></div>
+        <br>
+        <!--  <button id="addValue">Add Input</button>   -->  
+        <button id="rightClick">Right</button>
+        <button id="downClick">Down</button> 
+        <button id="leftClick">Left</button>
+        <button id="topClick">Top</button>
+        <button id="colcenterClick">Column Center</button>
+        <button id="rowcenterClick">Row Center</button>
+       
+    </div>
+
+   
+    
+<script src="lib.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+
+{
+    "option1": {
+    "headline": "My current hair color is",
+    "progress": 1, 
+    "category":[ 
+        {      
+            "subhead": ["Gray/White" ],   
+            "option": "option2"    
+        },
+        {
+            "subhead":["Black", "Brunette", "Blonde"],
+            "option": "option3"
+            
+        },
+        {
+            "subhead":  ["Auburn/Red", "Other"],
+            "option": "option4"
+            
+        }   
+        ]
+    },
+    "option2":{
+        "headline": "I would describe my skin as", 
+        "progress": 2,                
+        "category":[ 
+            {
+                "subhead": ["Normal", "Somewhat<br /> Sensitive"],
+                "option": "option5"  
+            },
+            { 
+                "subhead": ["Sensitive"],
+                "option": "option10" 
+            }
+        ]
+    },
+    "option3": {
+        "headline": "I want to color my hair because",
+        "progress": 2,
+        "category": [
+        {
+            "subhead": ["I want to<br /> cover my grays"],
+            "option": "option9" 
+        },
+        {
+            "subhead": ["I want to<br /> maintain my color"],
+            "option": "option6"
+        },
+        {
+            "subhead": ["I want to<br /> change it up"],
+            "option": "option7" 
+        }
+        ]
+    },
+    "option4": {
+        "headline": "My ideal shade is",
+        "progress": 2,                
+        "category": [
+        {
+            "subhead": ["Natural & Subtle"],
+            "img":"imageClass",
+            "option": "option6"             
+
+        },
+        {
+            "subhead": ["Bright & Bold"],
+            "img":"imageClass",
+            "option": "option11" 
+        }            
+        ]
+    },
+    "option5": {
+        "headline": "I care most about",              
+        "progress": 3, 
+        "category": [
+        {
+            "subhead": ["Strengthening<br/> technology"],
+            "option": "option9" 
+        },
+        {
+            "subhead": ["Simple<br/> ingredients"],
+            "option": "option10" 
+        }
+        ]
+    },
+    "option6": {
+        "headline": "I would describe my skin as",                
+        "progress": 3, 
+        "category": [
+        {
+            "subhead": ["Sensitive"],
+            "option": "option10"  
+        },
+        {
+            "subhead":["Somewhat<br /> sensitive", "Normal"],
+            "option": "option8"  
+        }
+        ]
+    },
+    "option7": {
+        "headline": "I want my hair to",                 
+        "progress": 3,
+        "category": [
+        {
+            "subhead": ["Have a natural,<br /> everyday look"],
+            "img":"imageClass",
+            "option": "option8"            
+            
+        },
+        {
+            "subhead": ["Be a bold,<br /> vibrant statement"] ,
+            "img":"imageClass",
+            "option": "option11"            
+                    
+        }
+        ]
+    },
+    "option8": {
+        "headline": "I care most about",                
+        "progress": 4, 
+        "category": [
+        {
+            "subhead": ["Strengthening<br/> technology"],
+            "option": "option9" 
+        },
+        {
+            "subhead": ["Simple<br/> ingredients"],
+            "option": "option10" 
+        },
+        {
+            "subhead": ["Vibrant<br> color"],
+            "option": "option11" 
+        }          
+        ]
+    },    
+    "option9": {
+        "headline": "Keratin Color",
+        "progress": 5,        
+        "category":["Keratin Color"]
+    },
+    "option10": {
+        "headline": "Simply Color",
+        "progress": 5,
+        "category":["Simply Color"]
+    },
+    "option11": {
+        "headline": "Color Ultime",
+        "progress": 5,
+        "category":["Color Ultime"]
+    } 
+}

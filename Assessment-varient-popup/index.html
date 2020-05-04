@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Javascript assessment</title>
+  <script src='https://www.walmart.com/wmg/PageBuilds/_Global/js/trm/trm-jquery-3.2.1.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="https://staging-walmart.triadretail.net/PageBuilds/_Global/fonts/bogle/bogle-all.css"> 
+  
+  <link rel='stylesheet' type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="styles.css">
+  
+ 
+</head>
+<body>
+
+
+  <script type="text/javascript" id="productData">  
+    var products = [{"id":{"usItemId":40571922,"productId":"51SPAIUSYM43",
+    "offerId":"3B11AD914ADF49E3A941B2E33CBF39D3","sellerId":0},
+    "price":{"minPrice":6.99,"maxPrice":33.6,"isStrikeThrough":true,"ppu":{"uomType":"OZ"}},
+    "ratings":{"rating":"3.963","totalRatings":"27"},
+    "imageSrc":"https://i5.walmartimages.com/asr/f02970f7-bd89-486a-966a-ba6b081d5d7f_1.a54091f3d6b50e830e482840dd3eecf9.jpeg",
+    "productType":"VARIANT","canAddToCart":true,"productUrl":"/ip/Schwarzkopf-Color-Ultime-Permanent-Hair-Color-Cream-5-22-Ruby-Red/40571922",
+    "isShippingPassEligible":false,"isNextDayEligible":false,"isTwoDayShippingEligible":false,"brand":"color ULTME",
+    "productName":"Schwarzkopf Color Ultime Permanent Hair Color Cream, 5.22 Ruby Red","quantity":152,"availabilityStatus":"AVAILABLE","geoItemClassification":"LOCAL_GEO"},{"id":{"usItemId":909168290,"productId":"3LUTCKUVKTXD","offerId":"31612D7EF2B4414DB2AABAABFDF25098","sellerId":0},"price":{"minPrice":9.97,"maxPrice":9.97,"currentPrice":9.97},"imageSrc":"https://i5.walmartimages.com/asr/62176baa-cd4c-4b63-9456-e231fb116818_2.2eac2dae9d3ca567dadd0da839eb5c80.jpeg","productType":"VARIANT","canAddToCart":true,"productUrl":"/ip/Schwarzkopf-Simply-Color-Permanent-Hair-Color-8-0-Medium-Blonde/909168290","isShippingPassEligible":false,"isNextDayEligible":false,"isTwoDayShippingEligible":false,"brand":"Schwarzkopf","productName":"Schwarzkopf Simply Color Permanent Hair Color, 8.0 Medium Blonde","quantity":46,"availabilityStatus":"AVAILABLE","geoItemClassification":"LOCAL_GEO"},{"id":{"usItemId":40571936,"productId":"6IAMO1R59LTT","offerId":"1AB44B375E3B4AC990D485ADF1BB6E3C","sellerId":0},"price":{"minPrice":9.97,"maxPrice":29.03,"isStrikeThrough":true,"ppu":{"uomType":"LB"}},"ratings":{"rating":"3.9667","totalRatings":"30"},"imageSrc":"https://i5.walmartimages.com/asr/04e0dfca-0526-4fc5-8483-db1e5e201acb_2.a0d1f502305daf9020e5fc29c89a0140.jpeg","productType":"VARIANT","canAddToCart":true,"productUrl":"/ip/Keratin-Color-Anti-Age-Hair-Color-Cream-4-0-Cappuccino/40571936","isShippingPassEligible":false,"isNextDayEligible":false,"isTwoDayShippingEligible":false,"brand":"Schwarzkopf","productName":"Keratin Color Anti-Age Hair Color Cream, 4.0 Cappuccino","quantity":65,"availabilityStatus":"AVAILABLE","geoItemClassification":"LOCAL_GEO"}]
+    </script>
+
+
+<div class="wmg-quiz-mainwrap">
+<div class="quiz">
+  <div class="wmg-quiz-innerwrap">
+    <div class="startquizbtncontainer">
+      <div class="starquizcontainer">
+        <p>Discover your pairing</p>
+        <button class="startquizbutton startquiz trackMe" id="startquiz" data-option="q1" omnitag="start quiz">
+          Start quiz
+        </button>
+      </div>
+      <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-4873/k2-_96957d95-863b-47ad-ba6d-4c134ea46176.v1.png" data-option="q1" alt="Schwarzkopf Logo" class="schwarz-logo">
+    </div>
+
+    <div class="quizcontainer">
+      <div class="progress-bar hide"><span class="level-1"></span><button id="closequiz" class="close trackMe" omnitag="close quiz" data-option="q1"> .</button>
+        <h1 class="quizquestion" id="question">
+      </h1></div>
+      
+      <div class="showHtml"></div>
+      <!-- <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-4873/k2-_96957d95-863b-47ad-ba6d-4c134ea46176.v1.png"
+        class="schwarz-logo show-sm-xs" /> -->
+    </div>
+  </div>
+</div>
+</div>
+<script type="text/javascript" src="https://www.walmart.com/wmg/PageBuilds/_Global/js/trm/slick-1.6.0.trm.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.2/handlebars.runtime.js"></script>
+<script type="text/javascript" src="https://www.walmart.com/wmg/_Global/js/product-carousel.tmpl.js"></script>
+<!-- product-carousel-live-html.js -->
+<script type="text/javascript" src="https://i5.walmartimages.com/dfw/4ff9c6c9-4c75/k2-_1f19a50b-fa6f-4db6-aea2-0fc89f0f2010.v1.js"></script>
+
+<!-- Product Carousel Live JS with updated for IE11 -->
+<script type="text/javascript" src="https://i5.walmartimages.com/dfw/4ff9c6c9-aa59/k2-_263a9497-e768-4c06-ac6c-8035a1ed9267.v1.js"></script>
+
+<!-- result.tmpl.js -->
+<script src="result.tmpl.js"></script> 
+<!-- dataedit.js -->
+<script type="text/javascript" src="color.js"></script>  
+  <script src="varient.js"></script> 
+  <script src="app.js"></script>
+</body>
+</html>
